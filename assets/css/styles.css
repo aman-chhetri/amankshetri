@@ -659,13 +659,13 @@ de exibir mais/menos: */
   width: 80%;
 }
 .skills_bootstrap {
-  width: 90%;
+  width: 100%;
 }
 .skills_js {
   width: 80%;
 }
 .skills_react {
-  width: 40%;
+  width: 50%;
 }
 
 /* Data Science */
@@ -673,19 +673,19 @@ de exibir mais/menos: */
   width: 50%;
 }
 .skills_sklearn {
-  width: 50%;
+  width: 70%;
 }
 .skills_pandas {
-  width: 65%;
+  width: 80%;
 }
 
 /* Productivity Boosts */
 .skills_vscode {
-  width: 90%;
+  width: 100%;
 }
 
 .skills_git {
-  width: 80%;
+  width: 90%;
 }
 
 /* UX/UI & Design: */
@@ -704,13 +704,13 @@ de exibir mais/menos: */
   width: 90%;
 }
 .skills_java {
-  width: 70%;
+  width: 60%;
 }
 .skills_cpp {
   width: 75%;
 }
 .skills_c {
-  width: 100%;
+  width: 90%;
 }
 
 /* Datbases */
@@ -718,7 +718,7 @@ de exibir mais/menos: */
   width: 80%;
 }
 .skills_firebase {
-  width: 70%;
+  width: 40%;
 }
 .skills_mysql {
   width: 90%;
