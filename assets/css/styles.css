@@ -1,9 +1,12 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
 :root {
   --header-height: 3.5rem;
+  /* --font-family: "JetBrains Mono", monospace; */
+
 
   /*========== Colors ==========*/
   /* Change favorite color */
@@ -29,7 +32,7 @@
   --footer-first-color: white;
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'JetBrains Mono', monospace;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -502,7 +505,7 @@ img {
   /* height: auto; */
   /* Se eu estiver usando o
   mini emoji: */
-  margin-top: -0.5rem;
+  margin-top: -1.0rem;
   border: 0.3rem solid var(--first-color);
   border-radius: 1rem;
   justify-self: center;
@@ -615,9 +618,7 @@ img {
   margin-left: -0.1rem;
 }
 
-.skills_number {
-  /* Deixa o número da %
-  alinhado no final: */
+/* .skills_number {
   margin-left: auto;
 }
 
@@ -634,7 +635,7 @@ img {
 .skills_percentage {
   display: block;
   background-color: var(--first-color);
-}
+} */
 
 /* Abrir e fechar habilidades com CSS: */
 .skills_close .skills_list {
@@ -652,7 +653,7 @@ de exibir mais/menos: */
 }
 
 /* Front End Centric: */
-.skills_html {
+/* .skills_html {
   width: 100%;
 }
 .skills_css {
@@ -666,10 +667,10 @@ de exibir mais/menos: */
 }
 .skills_react {
   width: 50%;
-}
+} */
 
 /* Data Science */
-.skills_tensorflow {
+/* .skills_tensorflow {
   width: 50%;
 }
 .skills_sklearn {
@@ -677,19 +678,19 @@ de exibir mais/menos: */
 }
 .skills_pandas {
   width: 80%;
-}
+} */
 
 /* Productivity Boosts */
-.skills_vscode {
+/* .skills_vscode {
   width: 100%;
 }
 
 .skills_git {
   width: 90%;
-}
+} */
 
 /* UX/UI & Design: */
-.skills_figma {
+/* .skills_figma {
   width: 85%;
 }
 .skills_photoshop {
@@ -697,10 +698,10 @@ de exibir mais/menos: */
 }
 .skills_adobexd {
   width: 20%;
-}
+} */
 
 /* Languages Known */
-.skills_python {
+/* .skills_python {
   width: 90%;
 }
 .skills_java {
@@ -711,10 +712,10 @@ de exibir mais/menos: */
 }
 .skills_c {
   width: 90%;
-}
+} */
 
 /* Datbases */
-.skills_mongodb {
+/* .skills_mongodb {
   width: 80%;
 }
 .skills_firebase {
@@ -722,7 +723,7 @@ de exibir mais/menos: */
 }
 .skills_mysql {
   width: 90%;
-}
+} */
 
 
 /*==================== QUALIFICATION ====================*/
@@ -771,6 +772,11 @@ de exibir mais/menos: */
 }
 
 .qualification_calendar {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.qualification_location {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
