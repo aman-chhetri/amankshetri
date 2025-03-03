@@ -927,10 +927,10 @@ de exibir mais/menos: */
 
 .portfolio_img {
   width: 565px;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   justify-self: center;
-  border: 0.3rem solid var(--first-color);
-  border-radius: 1rem;
+  /* border: 0.3rem solid var(--first-color);
+  border-radius: 1rem; */
 }
 
 .portfolio_title {
@@ -985,15 +985,15 @@ de exibir mais/menos: */
 
 /*==================== ACHIEVEMENTS ====================*/
 
-.portfolio_container {
+.achievements_container {
   overflow: initial;
 }
 
-.portfolio_content {
+.achievements_content {
   padding: 0 1.5rem;
 }
 
-.portfolio_img {
+.achievements_img {
   width: 565px;
   border-radius: 0.5rem;
   justify-self: center;
@@ -1001,19 +1001,19 @@ de exibir mais/menos: */
   border-radius: 1rem;
 }
 
-.portfolio_title {
+.achievements_title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
 
-.portfolio_description {
+.achievements_description {
   margin-bottom: var(--mb-0-75);
   /* NEVER JUSTIFY TEXT ON WEB, ONLY ON DOCUMENTS
   THAT SUPPORT WORD SEPARATIONS!! Like Ms Word*/
   text-align: left;
 }
 
-.portfolio_button:hover .button_icon {
+.achievements_button:hover .button_icon {
   transform: translateX(0.25rem);
 }
 
@@ -1023,7 +1023,7 @@ de exibir mais/menos: */
   content: '';
 }
 
-.swiper-portfolio-icon {
+.swiper-achievements-icon {
   font-size: 2rem;
   color: var(--first-color);
 }
@@ -1650,6 +1650,13 @@ BUG no 'home_blob' e 'social_blob' */
     width: 80%;
     justify-self: center;
   }
+  .achievements_img {
+    width: 80%;
+  }
+  .achievements_data {
+    width: 80%;
+    justify-self: center;
+  }
 
   .banner_img {
     width: 250px;
@@ -1677,6 +1684,9 @@ BUG no 'home_blob' e 'social_blob' */
     padding: 8rem 0 2rem;
   }
   .section_subtitle:not(.portfolio .section_subtitle) {
+    margin-bottom: 4rem;
+  }
+  .section_subtitle:not(.achievements .section_subtitle) {
     margin-bottom: 4rem;
   }
 
@@ -1801,6 +1811,10 @@ BUG no 'home_blob' e 'social_blob' */
   .portfolio_content {
     align-items: center;
   }
+  .achievements_content {
+    align-items: center;
+  }
+
 
   .banner {
     text-align: initial;
@@ -1901,6 +1915,12 @@ BUG no 'home_blob' e 'social_blob' */
     column-gap: 5rem;
   }
   .swiper-portfolio-icon {
+    font-size: 3.5rem;
+  }
+  .achievements_content {
+    column-gap: 5rem;
+  }
+  .swiper-achievements-icon {
     font-size: 3.5rem;
   }
   .swiper-button-prev {

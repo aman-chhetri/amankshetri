@@ -114,6 +114,26 @@ let portfolioSwiper = new Swiper('.portfolio_container', {
 });
 
 
+/*==================== achievements SWIPER  ====================*/
+let achievementsSwiper = new Swiper('.achievements_container', {
+  cssMode: true,
+  loop: false,
+  grabCursor: true,
+  spaceBetween: 48,
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: false
+  },
+  mousewheel: true,
+  keyboard: true
+});
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]');
 
