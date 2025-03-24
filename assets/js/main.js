@@ -71,27 +71,27 @@ tabs.forEach((tab) => {
 });
 
 /*==================== INTERESTS MODAL ====================*/
-const modalViews = document.querySelectorAll('.interests_modal'),
-  modalBtns = document.querySelectorAll('.interests_button'),
-  modalCloses = document.querySelectorAll('.interests_modal-close');
+// const modalViews = document.querySelectorAll('.interests_modal'),
+//   modalBtns = document.querySelectorAll('.interests_button'),
+//   modalCloses = document.querySelectorAll('.interests_modal-close');
 
-let modal = function (modalClick) {
-  modalViews[modalClick].classList.add('active-modal');
-};
+// let modal = function (modalClick) {
+//   modalViews[modalClick].classList.add('active-modal');
+// };
 
-modalBtns.forEach((modalBtn, i) => {
-  modalBtn.addEventListener('click', () => {
-    modal(i);
-  });
-});
+// modalBtns.forEach((modalBtn, i) => {
+//   modalBtn.addEventListener('click', () => {
+//     modal(i);
+//   });
+// });
 
-modalCloses.forEach((modalClose) => {
-  modalClose.addEventListener('click', () => {
-    modalViews.forEach((modalView) => {
-      modalView.classList.remove('active-modal');
-    });
-  });
-});
+// modalCloses.forEach((modalClose) => {
+//   modalClose.addEventListener('click', () => {
+//     modalViews.forEach((modalView) => {
+//       modalView.classList.remove('active-modal');
+//     });
+//   });
+// });
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let portfolioSwiper = new Swiper('.portfolio_container', {
